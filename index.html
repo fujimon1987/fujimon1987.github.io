@@ -4,15 +4,128 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="description" content="fujimonのポートフォリオのページです。">
+    <meta keyword="ポートフォリオ,fujimon,GitHub">
+    <meta name="robots" content="noindex" />
+    <title>ポートフォリオ</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        padding-top: 50px; 
+      }
+      
+      .navbar {
+        border-radius: 0; 
+      }
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+      .img {
+          padding: 20px 0;
+          text-align: center;
+      }
+      .img img{
+          max-width: 200px;
+          text-align: center;
+      }
+        h1 {
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 24px;
+          padding-bottom: 15px;
+          padding-left:10px;
+        }
+        .panel-title {
+          font-size: 14px;
+        }
+        p {
+          margin-bottom: 15px;
+          font-size:14px;
+          padding-left:20px;
+        }
+      </style>
   </head>
   <body>
-    <h1>Hello, world!!!!!!!!!</h1>
+        <header>
+      <nav class="navbar navbar-default navbar-fixed-top navbar-static-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">ナビ</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Portfolio</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Work">Work</a></li>
+              <li><a href="https://github.com/fujimon1987" target="_blank">GitHub</a></li>
+              <li><a href="#Contact">Contact</a></li>
+              </ul>
+              </div>
+              </div>
+              </header>
+              <a name="Home"></a><div class="img"><img src="Penguins.jpg" alt="photo" class="img-rounded"/>
+                <h1>fujimon</h1>
+                </div>
+              <hr />
+             <a name="About"></a> <h2>About</h2>
+              <p>名前:藤本　裕紀</p>
+              <p>年齢：28</p>
+              <p>出身地：大阪</p>
+              <p>趣味：音楽・ゲーム・サッカー観戦</p>
+              <hr />
+              <a name="Work"></a><h2>Work</h2>
+              <ul>
+                <li>メッセージボード</li>
+                <li>Twitterクローン</li>
+                <li>Amazonモノリスト</li>
+                <li>オリジナルサービス</li>
+              </ul>
+              <hr />
+              <a name="#Contact"></a><h2>Contact</h2>
+              <form class="form-horizontal" role="form">
+        
+                <div class="form-group">
+          <label class="col-sm-2 control-label">お名前</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" placeholder="お名前">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label class="col-sm-2 control-label">メールアドレス</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" placeholder="メールアドレス">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">お問い合わせ内容</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" rows="3" placeholder="お問い合わせ内容を入力下さい"></textarea>
+          </div>
+        </div>
+        <input type="button" value="OK" class="col-sm-offset-2">
+    <footer>
+      <div class="copyright">© 2015 fujimon</div>
+    </footer>
   </body>
 </html>
