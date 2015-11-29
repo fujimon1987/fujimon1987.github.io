@@ -59,7 +59,7 @@
       </style>
   </head>
   <body>
-        <header>
+    <header>
       <nav class="navbar navbar-default navbar-fixed-top navbar-static-top" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -79,14 +79,16 @@
               <li><a href="https://github.com/fujimon1987" target="_blank">GitHub</a></li>
               <li><a href="#Contact">Contact</a></li>
               </ul>
-              </div>
-              </div>
-              </header>
-              <a name="Home"></a><div class="img"><img src="Penguins.jpg" alt="photo" class="img-rounded"/>
-                <h1>fujimon</h1>
+          </div>
+        </div>
+      </nav>
+    </header>
+              <a name="Home"></a>
+                <div class="img"><img src="Penguins.jpg" alt="photo" class="img-rounded"/>
+                  <h1>fujimon</h1>
                 </div>
               <hr />
-             <a name="About"></a> <h2>About</h2>
+              <a name="About"></a> <h2>About</h2>
               <p>名前:藤本　裕紀</p>
               <p>年齢：28</p>
               <p>出身地：大阪</p>
@@ -102,28 +104,29 @@
               <hr />
               <a name="#Contact"></a><h2>Contact</h2>
               <form class="form-horizontal" role="form">
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">お名前</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" placeholder="お名前">
+                    </div>
+                </div>
         
                 <div class="form-group">
-          <label class="col-sm-2 control-label">お名前</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" placeholder="お名前">
-          </div>
-        </div>
-        
-        <div class="form-group">
-          <label class="col-sm-2 control-label">メールアドレス</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" placeholder="メールアドレス">
-          </div>
-        </div>
+                  <label class="col-sm-2 control-label">メールアドレス</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" placeholder="メールアドレス">
+                    </div>
+                </div>
 
-        <div class="form-group">
-          <label class="col-sm-2 control-label">お問い合わせ内容</label>
-          <div class="col-sm-10">
-            <textarea class="form-control" rows="3" placeholder="お問い合わせ内容を入力下さい"></textarea>
-          </div>
-        </div>
-        <input type="button" value="OK" class="col-sm-offset-2">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">お問い合わせ内容</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" rows="3" placeholder="お問い合わせ内容を入力下さい"></textarea>
+                    </div>
+                </div>
+                <input type="button" value="送信" class="col-sm-offset-2">
+              </form>
     <footer>
       <div class="copyright">© 2015 fujimon</div>
     </footer>
